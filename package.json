@@ -1,0 +1,11 @@
+{
+  "name": "snitch-sca-smoke",
+  "version": "1.0.0",
+  "description": "Throwaway test repo with intentionally vulnerable deps.",
+  "main": "src/index.js",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "4.17.20",
+    "axios": "0.21.0"
+  }
+}
