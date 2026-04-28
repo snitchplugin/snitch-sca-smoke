@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: snitchplugin/snitch-github-action@sca-preview
+      - uses: snitchplugin/snitch-github-action@dca-preview
         with:
           snitch-license-key: ${{ secrets.SNITCH_LICENSE_KEY }}
           trigger-mode: always
